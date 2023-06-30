@@ -1,11 +1,21 @@
 div {
-    padding: auto;
-    text-align: center;
-    color: #EEEEEE;
     font-family: 'Roboto', sans-serif;
 }
+
 .header,.footer {
     background-color: #1F2937;
+    color: #E5E7EB;
+}
+.main-content,.call-to-action {
+    color: #EEEEEE;
+}
+
+.under {
+    display: flex;
+}
+
+.header-text {
+    text-align: left;
 }
 
 a {
@@ -15,20 +25,29 @@ a {
 
 .quote {
     background-color: #E5E7EB;
+    text-align: center;
+    padding: 80px 160px 80px 160px;
 }
 
 .call-to-action {
     margin: 30px;
     background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px 60px 30px;
+    margin: 50px 100px 50px 100px;
+    display: flex;
 }
 
 .call-to-action button {
     display: inline-block;
+    padding: 5px 20px 5px 20px;
 }
 
 button {
     background-color: #3882f6;
     border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px; 
 }
 
 .main-content img {
@@ -36,26 +55,53 @@ button {
     border-radius: 20px;
 }
 
-.call-to-action {
-    display: flex;
-}
 .text{
     flex: 2;
-    text-align: left
+    text-align: left;
 }
 
 #Signup-text {
     display: block;
 }
-
-.main-content > div {
-    display: inline-block;
+.main-content {
+    text-align: center;
 }
 
-.under > div {
+.main-content div {
     display: inline-block;
+    text-align: center;
+    flex: 3px;
 }
 
 .footer-header {
     display: inline-block;
+}
+
+.under {
+    display: flex;
+}
+
+.under div {
+    margin: 10px 100px 10px 100px;
+    text-align: left;
+    flex: 2
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-logo div{
+    margin: 5px 100px 5px 100px;
+    text-align: left;
+    flex: 3
+}
+
+.header-logo .header-link {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
